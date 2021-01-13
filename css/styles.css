@@ -4,10 +4,14 @@ body {
   font-family: fantasy;
 }
 
-h {
+.h {
   color: #C58882;
 }
 
-fullletter {
+.letterBody {
+  text-indent: 50px;
+}
+
+#fullletter {
   display: none;
 }

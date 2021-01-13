@@ -1,8 +1,9 @@
 $(document).ready(function() {
-  $(#letter).submit(function(event) {
+  $("#letter").submit(function(event) {
+
     const recipientInput = $("input#recipient").val();
 
-    $(#recipent).text(recipientInput);
+    $(".recipientName").text(recipientInput);
 
     $("#fullletter").show();
 
